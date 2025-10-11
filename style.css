@@ -8,6 +8,7 @@ body {
 
 .container {
     width: 500px;
+    /* background-color: antiquewhite; */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -16,6 +17,8 @@ body {
 
 header {
     display: flex;
+    /* background-color: aqua; */
+    /* justify-content: center; */
     align-items: center;
 
 }
@@ -32,7 +35,7 @@ header h1 {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    width: 100px;
+    width: 120px;
     cursor: pointer;
 
 }
@@ -102,4 +105,8 @@ form {
 .clearAll:hover {
     background-color: #ededed;
     transition: all 0.4s ease-in-out;
+}
+
+.edit {
+    color: red
 }
